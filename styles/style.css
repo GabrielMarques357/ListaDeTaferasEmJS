@@ -34,10 +34,12 @@ main {
 #add-button {
     border-radius: 8px;
     font-size: 14px;
-    background-color: rgb(123, 206, 130);
+    width: 10%;
+    padding: 6px;
+    background-color: #7bce82;
 }
-#todo-list { 
-       
+#add-button:hover { 
+    background-color: #79eb82;
 }
 li{
     display: flex;
@@ -46,9 +48,21 @@ li{
 }
 
 .delete-button {
-    background-color: rgb(240, 66, 66);
+    background-color: #f74949;
     border-radius: 8px;
     width: 10vh;
     height: 20px;
-    
+}
+.delete-button:hover {
+    background-color: #f11b1b;
+}
+
+.edit-button {
+    background-color: rgb(255, 254, 254);
+    border-radius: 8px;
+    width: 10vh;
+    height: 20px;
+}
+.edit-button:hover {
+    background-color: rgb(245, 237, 237);
 }
